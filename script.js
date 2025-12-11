@@ -90,7 +90,7 @@ const _slideTiga = function () {
         _slideEmpat();
       }, 1000);
     })
-  }, 20000);
+  }, 10000);
 }
 
 function getRandomPosition(element) {
@@ -161,7 +161,7 @@ new TypeIt("#teks1", {
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["Stay happy, stay blessed, and stay the beautiful soul you are.","Once again, Happy Birthday Rashi! Bestie forever 💕🎉.", " ", "- Wish all you the best"],
+  strings: ["Stay happy, stay blessed, and stay the beautiful soul you are.","","","Once again, Happy Birthday Rashi! Bestie forever 💕🎉."],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
